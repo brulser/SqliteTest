@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jingjiu.sqlite_test_db.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_consult"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="!" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:onClick="AddManyData"
+        android:text="大量数据的生成" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:onClick="SeleteAll"
+        android:text="查询所有数据" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="查詢計算綜合"
+        android:onClick="SunTable"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+</LinearLayout>
